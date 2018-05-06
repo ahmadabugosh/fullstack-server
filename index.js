@@ -1,6 +1,7 @@
 const express = require ('express');
 const mongoose =require('mongoose');
 require('./models/User');
+require('./models/Survey');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 require('./services/passport');
